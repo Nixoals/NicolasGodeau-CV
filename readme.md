@@ -6,6 +6,8 @@ If you hit New life you will see my new vocational retraining but if you hit Mod
 
 See it in [live](https://www.nicolasgodeau.fr)
 
+A big Thanks to Bruno Simon and his amazing course THREE.JS Journey!
+
 A bientot!
 
 _Nicolas Godeau_
