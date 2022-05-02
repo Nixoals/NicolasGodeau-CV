@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="icon" type="image/x-icon" href="/static/Images/icon.png" />
+    <title>Nicolas_Godeau</title>
+  </head>
+  <body>
+    <section class="renderer-wrapper">
+      <div class="loading-wrapper">
+        <div class="loading-text">Loading in progress ...</div>
+        <div class="loading-bar">
+          <div class="loading-bar-inside"></div>
+        </div>
+      </div>
+      <canvas class="webgl"></canvas>
+      <div class="canvas-button-container">
+        <div class="canvas-button-wrapper">
+          <button id="first-life-btn">Fist life</button>
+          <button id="new-life-btn">New life</button>
+          <button id="hobbies-btn">Hobbies</button>
+          <button onclick="window.location.reload()" id="home-btn">
+            <ion-icon name="home-outline"></ion-icon>
+          </button>
+        </div>
+      </div>
+      <div id="card-studies-skills-container" class="card-container">
+        <div class="card-title-wrapper">
+          <div class="card-title">Education</div>
+        </div>
+        <ul class="card-education-ul">
+          <li>2018 Ph.D. Aix-Marseille University</li>
+          <ul>
+            <li>
+              <a
+                id="theseLink"
+                href="https://www.theses.fr/234882050"
+                target="_blank"
+                >Development and application of the Uranium-Lead
+                radiochronometer dating <br />
+                to diagenetic carbonates in petroleum reservoirs</a
+              >
+            </li>
+          </ul>
+          <li>2013- Master Aix-Marseille University</li>
+          <ul>
+            <li>Geochemistry</li>
+            <li>Reservoir geology</li>
+            <li>Carbonate diagenesis</li>
+            <li>Sedimentology</li>
+            <li>Petroleum basin characterisation</li>
+          </ul>
+        </ul>
+      </div>
+
+      <div id="card-job-geochemistry" class="card-container">
+        <div class="card-title-wrapper">
+          <div class="card-title">Working experience</div>
+        </div>
+        <div class="post-doc">2018/2021 - post-doc Position at CEREGE</div>
+        <div class="post-doc-content">
+          Developpement and application of U-Pb dating <br />
+          of carbonate by Laser ablation HR-ICP-MS <br />
+          in mutltiple geological context. Reconstructing <br />
+          the evolution of petrophysical properties of <br />
+          petroleum reservoirs.
+        </div>
+      </div>
+      <div id="card-new-job" class="card-container">
+        <div class="card-title-wrapper">
+          <div class="card-title">New life (retraining)</div>
+        </div>
+        <div class="new-job">Web developer</div>
+        <div class="new-job-content-wraper">
+          <ul>
+            <li>Three.js, gsap</li>
+            <li>HTML, CSS</li>
+            <li>webpack, Nodejs</li>
+          </ul>
+          <div class="future-skills">
+            ...TensorFlow.js, React, React-three-fiber (to be learned)
+          </div>
+          <a
+            id="this-git"
+            href="https://github.com/Nixoals/ModernCV"
+            ,
+            target="_blank"
+            >()=>this.GitHub.go...</a
+          >
+        </div>
+      </div>
+
+      <div id="card-hobby-photograpgy" class="card-container">
+        <div class="card-title-wrapper">
+          <div class="card-title">Photography</div>
+        </div>
+        <div class="card-hobby-photograpgy-content">
+          I always take my camera, just in case!!!<br />
+          I am passionate about photography,<br />
+          and famous photographers. <br />
+          A picture will never be the same when you look at it,<br />
+          depending of what you feel at this moment
+        </div>
+        <div>
+          <a
+            id="flickr-link"
+            href="https://www.flickr.com/photos/184802489@N08/"
+            ,
+            target="_blank"
+            >Flickr /</a
+          >
+
+          <a
+            id="insta-link"
+            href="https://www.instagram.com/nicolasgodeau_/?hl=fr"
+            ,
+            target="_blank"
+            >Instagram</a
+          >
+        </div>
+      </div>
+      <div id="card-hobby-woodworking" class="card-container">
+        <div class="card-title-wrapper">
+          <div class="card-title">Wood working</div>
+        </div>
+        <div class="card-hobby-woodworking-content">
+          It is not just a passion, it is also a way of life!!! <br />
+          Touching, feeling and shape this natural material <br />
+          is an extraordinay experience, that taugh me thoroughness,<br />
+          handworking with handtools used for centuries,<br />
+          to achieve usefull furnitures that I can look at and say<br />
+          it is made by hand, my own hands!
+        </div>
+        <div id="air-du-bois">
+          some examples at
+          <a href="https://www.lairdubois.fr/@nixoals" target="_blank"
+            >l'air du bois</a
+          >
+        </div>
+      </div>
+      <video id="coding-vertical"></video>
+      <video id="video-screen-studies"></video>
+    </section>
+    <section class="cv-wrapper">
+      <div>
+        <div class="header-wrapper">
+          <div class="cv-picture-wrapper">
+            <img src="/static/Images/moi2.jpg" alt="" />
+          </div>
+          <div class="name">Nicolas Godeau</div>
+          <div class="job">research engineer In Geochemistry (Ph.D.)</div>
+          <div class="button-header-wrapper">
+            <button id="new-life">New Life</button>
+            <button id="modern-cv">Modern CV</button>
+          </div>
+        </div>
+      </div>
+      <section class="section-ID-container">
+        <div class="section-ID">About me</div>
+        <div class="about-me-text">
+          Geoscience is one the most interesting field of science that gives you
+          the opportunity to realize that the earth is a complex object, and was
+          here long before humanity... I ended up with a Ph.D. in geochemistry
+          specialized in U-Pb dating of carbonates in petroleum geology, mass
+          spectrometry, and isotopic analysis, for deciphering complexe
+          subsurface processes.
+        </div>
+      </section>
+      <section class="section-ID-container">
+        <div class="section-ID">Skills</div>
+        <ul class="section-ul">
+          <li class="skills-1">Geochemistry/geochronology</li>
+          <li class="skills-2">Ionic chromatography extraction</li>
+          <li class="skills-3">U-Pb dating of carbonates</li>
+          <li class="skills-4">Programming: Python, SQL, VBA</li>
+        </ul>
+      </section>
+      <section class="section-ID-container">
+        <div class="section-ID">Education</div>
+        <ul class="section-ul">
+          <li class="education-1">2018 Ph.D. Geochemistry/geochronology</li>
+          <li class="education-2">2013- Master degree</li>
+        </ul>
+      </section>
+      <section class="section-ID-container work-section">
+        <div class="section-ID">Work experience</div>
+        <ul class="section-ul">
+          <li class="work-experience-1">
+            2018-2021-Post doctoral position at CEREGE
+          </li>
+          <li class="work-experience-2">
+            2013-2014 Ingeneer in geochemistry at CVAssociée
+          </li>
+        </ul>
+      </section>
+      <section class="footer-wrapper">
+        <div class="contact">Contact me</div>
+        <div class="contact-button-container">
+          <button class="contact-button">
+            <a href="mailto:nicolasgodeau1@gmail.com"
+              ><ion-icon name="mail-outline"></ion-icon
+            ></a>
+          </button>
+          <button class="contact-button">
+            <a
+              href="https://www.linkedin.com/in/nicolas-g-a68b3846/"
+              target="_blank"
+              ><ion-icon name="logo-linkedin"></ion-icon
+            ></a>
+          </button>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
