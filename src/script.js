@@ -25,7 +25,7 @@ if (!isMobile) {
     // window.focus();
   });
   gitLink.addEventListener("pointerdown", () => {
-    window.open("https://github.com/Nixoals/ModernCV", "_blank");
+    window.open("https://github.com/Nixoals/NicolasGodeau-CV", "_blank");
   });
   flickrLink.addEventListener("pointerdown", () => {
     window.open("https://www.flickr.com/photos/184802489@N08/", "_blank");
